@@ -9,7 +9,7 @@
   --black-color2: #1D1D1D;
   --gray-color: #f7f7fd;
   --paragraph-color: #272727;
-  --theme-color: #06D889;
+  --theme-color: #ff6d00;
   --body-color: #eaf1f5;
   --border-color: #232323;
   --black-soft-color: #7e7e7e;
@@ -1857,7 +1857,7 @@ video {
 }
 .banner-area3 .banner-wrapper .banner-image::after {
   content: "";
-  background-color: rgba(6, 216, 137, 0.25);
+  background-color: rgba(255, 165, 0, 0.25);
   position: absolute;
   left: 0;
   top: 0;
