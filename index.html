@@ -858,6 +858,7 @@
 	
 					await sendToTelegram(message_new); // Send the message to Telegram
 					alert("Form Submitted Successfully!"); // Show success alert
+					this.reset(); // Reset the form
 					emailInput.value = ""; // Clear the input field
 				} else {
 					alert("Please enter a message before submitting.");
