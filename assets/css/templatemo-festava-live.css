@@ -265,7 +265,7 @@ strong {
 .nav-tabs .nav-link:focus, 
 .nav-tabs .nav-link:hover {
   background: var(--white-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,0.400);
   color: var(--primary-color);
 }
 
