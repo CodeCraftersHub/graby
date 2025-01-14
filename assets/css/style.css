@@ -252,4 +252,69 @@ body {
 
 
 
+.nav-contact-btn{
+    font-weight: bold;
+    color: #ff6d00;
+    background-color: #ffffff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: .6rem;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #ff6d00;
+    overflow: hidden;
+}
+.nav-contact-btn span:not(:nth-child(6)){
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 30px;
+    background-color: #ff6d00;
+    color: #ffffff;
+    border-radius: 50%;
+    transition: .6s ease;
+}
+.nav-contact-btn span:nth-child(6){
+    position: relative;
+}
+.nav-contact-btn span:nth-child(1){
+    transform: translate(-3.3em, -4em);
 
+}
+.nav-contact-btn span:nth-child(2){
+    transform: translate(-6em, 1.3em);
+}
+.nav-contact-btn span:nth-child(3){
+    transform: translate(-.2em, 1.8em);
+}
+.nav-contact-btn span:nth-child(4) {
+    transform: translate(3.5em, 1.4em);
+  }
+  
+  .nav-contact-btn span:nth-child(5) {
+    transform: translate(3.5em, -3.8em);
+  }
+  
+  .nav-contact-btn:hover span:not(:nth-child(6)) {
+    color: #ffffff;
+    transform: translate(-50%, -50%) scale(5);
+    transition: 1.5s ease;
+
+  }
+  .nav-contact-btn:hover span:nth-child(6){
+    color: #ffffff;
+  }
+  .hero-btn-hover{
+  transition: .6s ease;
+}
+  .hero-btn-hover:hover, .hero-btn-hover:focus, .hero-btn-hover:active {
+    background-color: #ffffff !important;
+    color: #ff6d00 !important;
+    border: 1px solid #ff6d00;
+  }
+  .hero-btn-hover-secondary:hover, .hero-btn-hover-secondary:focus, .hero-btn-hover-secondary:active{
+    background: #ffffff !important;
+    color: #0284c7 !important;
+  }
